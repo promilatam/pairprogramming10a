@@ -1,0 +1,84 @@
+
+ul {
+  list-style: none;
+}
+
+body {
+  margin: auto;
+  padding: 20px;
+  width: 900px;
+}
+
+#banner {
+  background-image: url("./img/hr-img.png");
+  background-repeat: repeat-x;
+  height: 4px;
+}
+
+#icon{
+  float: right;
+  margin: 0px;
+}
+
+#icon > li {
+  display: inline;
+}
+
+#heading {
+  display: inline;
+}
+
+#top {
+  height: 100px;
+}
+
+#footer {
+  position: relative;
+  margin-bottom: 10px;
+  height: 71px;;
+}
+
+#bottom{
+  position: relative;
+  height: 100px;
+}
+
+#bottom > li {
+  display: inline;
+}
+
+#bottom > div, #bottom > img{
+  float: left;
+}
+
+#notecard {
+  background-image: url("./img/list-bg.png");
+  width: 899px;
+  height: 305px;
+  position: relative;
+  margin: 30px 0 30px 0;
+}
+
+#list {
+  position: absolute; 
+  left: 10%; 
+  top: 10%;
+  list-style: square;
+}
+
+#list > li, #list2 > li {
+  padding: 9px;
+}
+
+#list2 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  list-style: square;
+}
+
+footer {
+  position: relative;
+  left: 35%;
+  bottom: 5%;
+}
